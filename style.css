@@ -1,0 +1,73 @@
+* {
+    font-family: 'nunito';
+}
+
+.container {
+    color: #293845;
+    max-width: 600px;
+    max-height: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.container h1 {
+    font-size: 48px;
+}
+
+.container h2 {
+    font-size: 20px;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    max-width: 150px;
+    background-color: #6558f5;
+    color: #f4f3fe;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .underweight {
+    color: blue;
+  }
+  
+  .normal {
+    color: green;
+  }
+  
+  .overweight {
+    color: orange;
+  }
+  
+  .obesity {
+    color: red;
+  }
